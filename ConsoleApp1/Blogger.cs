@@ -3,7 +3,6 @@
 
 namespace BlogManagementSystem
 {
-    
     public class Blogger : User
     {
         public List<Article> Articles { get; } = new List<Article>();
