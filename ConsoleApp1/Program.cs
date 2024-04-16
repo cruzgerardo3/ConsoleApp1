@@ -9,9 +9,11 @@ namespace BlogManagementSystem
    
     public enum UserType
     {
+    
         Administrator,
         Blogger,
         Reader
+        
     }
 
     public class InvalidLoginException : Exception
@@ -51,6 +53,7 @@ namespace BlogManagementSystem
                         {
                             IsSecret = true,
                         });
+                       
 
                         currentUser = blogManagementSystem.Login(email, password);
                     }
