@@ -2,6 +2,8 @@
 {
    
     public abstract class User : IUser
+    
+    
     {
         public string Email { get; }
         public string Password { get; }
@@ -15,6 +17,7 @@
         }
 
         public abstract void DisplayMenu(List<User> users, List<Article> articles, BlogManagementSystem system);
+        
     }
 
 }
