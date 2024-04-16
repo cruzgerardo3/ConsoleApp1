@@ -44,6 +44,7 @@ namespace BlogManagementSystem
             }
         }
 
+
         private void DisplayArticles(List<Article> articles)
         {
             if (articles.Count == 0)
